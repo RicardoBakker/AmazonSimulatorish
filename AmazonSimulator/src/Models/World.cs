@@ -208,7 +208,6 @@ namespace Models
 
       for (var i = 0; i < Points.Count; i++)
       {
-        Console.WriteLine(Points[i]);
       }
 
       return Points;

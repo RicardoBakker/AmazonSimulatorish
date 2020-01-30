@@ -180,7 +180,6 @@ namespace Models
       if (truckHere && _counter > 0)
       {
         _counter--;
-        Console.WriteLine(_counter);
       }
 
       if (_counter <= 0 && !robotLoaded)
