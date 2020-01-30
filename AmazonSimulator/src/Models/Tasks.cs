@@ -28,10 +28,10 @@ namespace Models
       Robot robot2 = (Robot)worldObjects[1];
       Robot robot3 = (Robot)worldObjects[2];
       Robot robot4 = (Robot)worldObjects[3];
-      Shelf shelf1 = (Shelf)worldObjects[28 + (4 * cycles)];
-      Shelf shelf2 = (Shelf)worldObjects[29 + (4 * cycles)];
-      Shelf shelf3 = (Shelf)worldObjects[30 + (4 * cycles)];
-      Shelf shelf4 = (Shelf)worldObjects[31 + (4 * cycles)];
+      Package package1 = (Package)worldObjects[28 + (4 * cycles)];
+      Package package2 = (Package)worldObjects[29 + (4 * cycles)];
+      Package package3 = (Package)worldObjects[30 + (4 * cycles)];
+      Package package4 = (Package)worldObjects[31 + (4 * cycles)];
 
       if (truck.truckHere == true)
       {
@@ -43,8 +43,8 @@ namespace Models
 
       if (robot1.robotReady == true)
       {
-        MoveShelf(robot1, shelf1, robot1.x, robot1.y, robot1.z);
-        robot1.ChangeShelf(shelf1);
+        MovePackage(robot1, package1, robot1.x, robot1.y, robot1.z);
+        robot1.ChangePackage(package1);
         robot1.ChangeRobotReady(false);
         robot1.ChangeRobotLoaded(true);
         ReadySetGo++;
@@ -52,8 +52,8 @@ namespace Models
 
       if (robot2.robotReady == true)
       {
-        MoveShelf(robot2, shelf2, robot2.x, robot2.y, robot2.z);
-        robot2.ChangeShelf(shelf2);
+        MovePackage(robot2, package2, robot2.x, robot2.y, robot2.z);
+        robot2.ChangePackage(package2);
         robot2.ChangeRobotReady(false);
         robot2.ChangeRobotLoaded(true);
         ReadySetGo++;
@@ -61,8 +61,8 @@ namespace Models
 
       if (robot3.robotReady == true)
       {
-        MoveShelf(robot3, shelf3, robot3.x, robot3.y, robot3.z);
-        robot3.ChangeShelf(shelf3);
+        MovePackage(robot3, package3, robot3.x, robot3.y, robot3.z);
+        robot3.ChangePackage(package3);
         robot3.ChangeRobotReady(false);
         robot3.ChangeRobotLoaded(true);
         ReadySetGo++;
@@ -70,8 +70,8 @@ namespace Models
 
       if (robot4.robotReady == true)
       {
-        MoveShelf(robot4, shelf4, robot4.x, robot4.y, robot4.z);
-        robot4.ChangeShelf(shelf4);
+        MovePackage(robot4, package4, robot4.x, robot4.y, robot4.z);
+        robot4.ChangePackage(package4);
         robot4.ChangeRobotReady(false);
         robot4.ChangeRobotLoaded(true);
         ReadySetGo++;
@@ -120,7 +120,7 @@ namespace Models
       }
     }
 
-    private void MoveShelf(Robot r, Shelf s, double x, double y, double z)
+    private void MovePackage(Robot r, Package s, double x, double y, double z)
     {
       s.Move(r.x, s.y, r.z);
       s.needsUpdate = true;

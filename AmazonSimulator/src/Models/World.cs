@@ -19,7 +19,7 @@ namespace Models
     private Tasks taskClass;
     private Robot robot1, robot2, robot3, robot4;
     private Truck truck;
-    private Shelf shelf1, shelf2, shelf3, shelf4, shelf5, shelf6, shelf7, shelf8, shelf9, shelf10, shelf11, shelf12, shelf13, shelf14, shelf15, shelf16, shelf17, shelf18, shelf19, shelf20;
+    private Package package1, package2, package3, package4, package5, package6, package7, package8, package9, package10, package11, package12, package13, package14, package15, package16, package17, package18, package19, package20;
 
     public World()
     {
@@ -29,26 +29,26 @@ namespace Models
       robot4 = CreateRobot("r4", 0, 0.301, -12, 200);
       truck = CreateTruck(-150, 0.001, -21);
       MakeNodes(23);
-      shelf1 = CreateShelf(-300, 1.401, -300);
-      shelf2 = CreateShelf(-300, 1.401, -300);
-      shelf3 = CreateShelf(-300, 1.401, -300);
-      shelf4 = CreateShelf(-300, 1.401, -300);
-      shelf5 = CreateShelf(-300, 1.401, -300);
-      shelf6 = CreateShelf(-300, 1.401, -300);
-      shelf7 = CreateShelf(-300, 1.401, -300);
-      shelf8 = CreateShelf(-300, 1.401, -300);
-      shelf9 = CreateShelf(-300, 1.401, -300);
-      shelf10 = CreateShelf(-300, 1.401, -300);
-      shelf11 = CreateShelf(-300, 1.401, -300);
-      shelf12 = CreateShelf(-300, 1.401, -300);
-      shelf13 = CreateShelf(-300, 1.401, -300);
-      shelf14 = CreateShelf(-300, 1.401, -300);
-      shelf15 = CreateShelf(-300, 1.401, -300);
-      shelf16 = CreateShelf(-300, 1.401, -300);
-      shelf17 = CreateShelf(-300, 1.401, -300);
-      shelf18 = CreateShelf(-300, 1.401, -300);
-      shelf19 = CreateShelf(-300, 1.401, -300);
-      shelf20 = CreateShelf(-300, 1.401, -300);
+      package1 = CreatePackage(-300, 1.401, -300);
+      package2 = CreatePackage(-300, 1.401, -300);
+      package3 = CreatePackage(-300, 1.401, -300);
+      package4 = CreatePackage(-300, 1.401, -300);
+      package5 = CreatePackage(-300, 1.401, -300);
+      package6 = CreatePackage(-300, 1.401, -300);
+      package7 = CreatePackage(-300, 1.401, -300);
+      package8 = CreatePackage(-300, 1.401, -300);
+      package9 = CreatePackage(-300, 1.401, -300);
+      package10 = CreatePackage(-300, 1.401, -300);
+      package11 = CreatePackage(-300, 1.401, -300);
+      package12 = CreatePackage(-300, 1.401, -300);
+      package13 = CreatePackage(-300, 1.401, -300);
+      package14 = CreatePackage(-300, 1.401, -300);
+      package15 = CreatePackage(-300, 1.401, -300);
+      package16 = CreatePackage(-300, 1.401, -300);
+      package17 = CreatePackage(-300, 1.401, -300);
+      package18 = CreatePackage(-300, 1.401, -300);
+      package19 = CreatePackage(-300, 1.401, -300);
+      package20 = CreatePackage(-300, 1.401, -300);
       graph = new Graph();
       graph = Graphy();
       taskClass = new Tasks(this, this.worldObjects.ToList());
@@ -171,9 +171,9 @@ namespace Models
       return t;
     }
 
-    private Shelf CreateShelf(double x, double y, double z)
+    private Package CreatePackage(double x, double y, double z)
     {
-      Shelf s = new Shelf(x, y, z, 0, 0, 0);
+      Package s = new Package(x, y, z, 0, 0, 0);
       worldObjects.Add(s);
       return s;
     }

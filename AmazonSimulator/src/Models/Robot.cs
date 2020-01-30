@@ -16,9 +16,9 @@ namespace Models
     private int _counter;
     private int ogCounter;
 
-    private Shelf _shelf;
+    private Package _package;
 
-    public Shelf shelf { get { return _shelf; } }
+    public Package package { get { return _package; } }
 
     private bool _truckHere = false;
     private bool _robotPath = false;
@@ -66,7 +66,7 @@ namespace Models
       if (hazRun == path.Count() && hazRunTheSecond == 0)
       {
         ChangeRobotDropped(true);
-        ChangeShelf(null);
+        ChangePackage(null);
 
         hazRun = 0;
         hazRunTheSecond++;
@@ -82,9 +82,9 @@ namespace Models
 
     public void MoveBetween(double x, double y, double z)
     {
-      if (shelf != null)
+      if (package != null)
       {
-        shelf.Move(x, shelf.y, z);
+        package.Move(x, package.y, z);
       }
 
       this.Move(x, y, z);
@@ -92,9 +92,9 @@ namespace Models
       this.needsUpdate = true;
     }
 
-    public void ChangeShelf(Shelf b)
+    public void ChangePackage(Package b)
     {
-      this._shelf = b;
+      this._package = b;
     }
 
     public void ChangeTruckHere(bool b)

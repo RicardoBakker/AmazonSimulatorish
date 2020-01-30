@@ -118,13 +118,13 @@ window.onload = function ()
 
 			if (Object.keys(worldObjects).indexOf(command.parameters.guid) < 0)
 			{
-				if (command.parameters.type == "shelf")
+				if (command.parameters.type == "package")
 				{
 					console.log(command);
-					shelf = new gShelf();
+					package = new gPackage();
 
 					var group = new THREE.Group();
-					group.add(shelf);
+					group.add(package);
 
 					scene.add(group);
 					worldObjects[command.parameters.guid] = group;

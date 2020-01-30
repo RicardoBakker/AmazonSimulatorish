@@ -11687,11 +11687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj",
+      "projectUniqueName": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj",
       "projectName": "AmazonSimulator",
-      "projectPath": "c:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj",
+      "projectPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj",
       "packagesPath": "C:\\Users\\RBakk\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\obj\\",
+      "outputPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

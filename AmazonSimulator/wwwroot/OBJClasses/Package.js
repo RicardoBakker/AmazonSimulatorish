@@ -1,4 +1,4 @@
-class gShelf extends THREE.Group
+class gPackage extends THREE.Group
 {
 
 	constructor()

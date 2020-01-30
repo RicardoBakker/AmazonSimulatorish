@@ -39,3 +39,16 @@ C:\Users\RBakk\Desktop\AmazonSimulator-master\AmazonSimulator-master\obj\Debug\n
 C:\Users\RBakk\Desktop\AmazonSimulator-master\AmazonSimulator-master\obj\Debug\netcoreapp2.1\AmazonSimulator.RazorTargetAssemblyInfo.cache
 C:\Users\RBakk\Desktop\AmazonSimulator-master\AmazonSimulator-master\obj\Debug\netcoreapp2.1\AmazonSimulator.dll
 C:\Users\RBakk\Desktop\AmazonSimulator-master\AmazonSimulator-master\obj\Debug\netcoreapp2.1\AmazonSimulator.pdb
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\bin\Debug\netcoreapp2.1\AmazonSimulator.deps.json
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\bin\Debug\netcoreapp2.1\AmazonSimulator.runtimeconfig.json
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\bin\Debug\netcoreapp2.1\AmazonSimulator.runtimeconfig.dev.json
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\bin\Debug\netcoreapp2.1\AmazonSimulator.dll
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\bin\Debug\netcoreapp2.1\AmazonSimulator.pdb
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.csprojAssemblyReference.cache
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.RazorAssemblyInfo.cache
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.RazorAssemblyInfo.cs
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.AssemblyInfoInputs.cache
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.AssemblyInfo.cs
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.RazorTargetAssemblyInfo.cache
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.dll
+C:\Users\RBakk\Desktop\AmazonSimulatorish\AmazonSimulator\obj\Debug\netcoreapp2.1\AmazonSimulator.pdb

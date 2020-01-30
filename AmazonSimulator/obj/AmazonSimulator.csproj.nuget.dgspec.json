@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj": {}
+    "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj": {
+    "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj",
+        "projectUniqueName": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj",
         "projectName": "AmazonSimulator",
-        "projectPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\AmazonSimulator.csproj",
+        "projectPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\AmazonSimulator.csproj",
         "packagesPath": "C:\\Users\\RBakk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulator-master\\AmazonSimulator-master\\obj\\",
+        "outputPath": "C:\\Users\\RBakk\\Desktop\\AmazonSimulatorish\\AmazonSimulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
