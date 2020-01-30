@@ -105,7 +105,7 @@ namespace Models
         robot3.ChangeRobotDone(false);
         robot4.ChangeRobotDone(false);
         ReadySetGo++;
-        world.THHere();
+        world.TruckHere();
       }
 
       if (robot1.robotReset == true && robot2.robotReset == true && robot3.robotReset == true && robot4.robotReset == true)

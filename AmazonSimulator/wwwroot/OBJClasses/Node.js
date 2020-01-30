@@ -1,4 +1,4 @@
-class gNode extends THREE.Group
+class Nodemodel extends THREE.Group
 {
 	constructor()
 	{

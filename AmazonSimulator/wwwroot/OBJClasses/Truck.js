@@ -1,4 +1,4 @@
-class gTruck extends THREE.Group
+class TruckModel extends THREE.Group
 {
 	constructor()
 	{

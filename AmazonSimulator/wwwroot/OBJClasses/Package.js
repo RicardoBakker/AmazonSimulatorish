@@ -1,4 +1,4 @@
-class gPackage extends THREE.Group
+class Packagemodel extends THREE.Group
 {
 
 	constructor()

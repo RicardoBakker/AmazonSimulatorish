@@ -1,4 +1,4 @@
-class gRobot extends THREE.Group
+class Robotmodel extends THREE.Group
 {
 	constructor()
 	{

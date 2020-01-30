@@ -91,7 +91,7 @@ window.onload = function ()
 				if (command.parameters.type == "robot")
 				{
 					console.log(command);
-					robot = new gRobot();
+					robot = new Robotmodel();
 
 					var group = new THREE.Group();
 					group.add(robot);
@@ -106,8 +106,7 @@ window.onload = function ()
 				if (command.parameters.type == "truck")
 				{
 					console.log(command);
-					th = new gTruck();
-
+					th = new TruckModel();
 					var group = new THREE.Group();
 					group.add(th);
 
@@ -121,7 +120,7 @@ window.onload = function ()
 				if (command.parameters.type == "package")
 				{
 					console.log(command);
-					package = new gPackage();
+					package = new Packagemodel();
 
 					var group = new THREE.Group();
 					group.add(package);
@@ -136,7 +135,7 @@ window.onload = function ()
 				if (command.parameters.type == "node")
 				{
 					console.log(command);
-					node = new gNode();
+					node = new Nodemodel();
 
 					var group = new THREE.Group();
 					group.add(node);

@@ -149,7 +149,7 @@ namespace Models
       return g;
     }
 
-    public void THHere()
+    public void TruckHere()
     {
       RobotOnPath(robot1, "A");
       RobotOnPath(robot2, "null1");
